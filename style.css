@@ -1,0 +1,150 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+}
+
+#prenavcontainer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:gold;
+    align-items: center;
+    padding: 10px;
+    width: auto;
+    color: black; 
+    flex-wrap: wrap;
+}
+#navcontainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: gold;
+    background-color: white;
+    width: auto;
+    flex-wrap: wrap;
+    top: 0%;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 64px;
+   
+}
+
+/* #sectionleft img{
+    height: 55px;
+    width: 55px;
+    background-color: black;
+} */
+#services{
+    scroll-behavior: smooth;
+}
+#sectionleft{
+    color: gold;
+}
+#sectioncenter{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+ 
+    
+}
+#sectioncenter ul{
+    display: flex;
+    flex-wrap: wrap;
+   margin: 0%;
+    
+} 
+#sectioncenter ul li{
+    margin-right: 12px;
+    list-style: none;
+}
+#sectioncenter ul li a{
+    color: gold;
+    list-style: none;
+    text-decoration: none;   
+}
+#sectioncenter ul li a:visited{
+    color: gold;
+    list-style: none;
+    text-decoration: none;   
+}
+#sectionright #btnone{
+    height: 33px;
+    border-radius: 33px;
+    background-color: ora;
+    color: rgb(0, 0, 0);
+    transition: 0.3s;
+}
+#sectionright #btnone:hover{
+    height: 33px;
+    background-color: goldenrod;
+    border-radius: 33px;
+    color: rgb(0, 0, 0);
+}
+#sectionright #btntwo{
+    height: 33px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 33px;
+    color: rgb(0, 0, 0);
+    transition: 0.3s;
+    border: 2px solid black;
+}
+#sectionright #btntwo:hover{
+    height: 33px;
+    background-color:goldenrod;
+    border-radius: 33px;
+    color: rgb(255, 255, 255);
+}
+
+/* nav section ended */
+#sectionone{
+    display: flex;
+    justify-content: center;
+    height:550px;
+    align-items: center;
+    color: gold;
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+}
+#sectiononecontent{
+    text-align: center;
+}
+#sectiononecontent h4{
+    color: yellow;
+    font-size: 44px;
+}
+
+#animationpractice{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+
+}
+.card-body {
+    background-color: black;
+    color: gold !important;
+    border: 2px solid yellow;
+}
+#about p{
+    background-color: gold;
+    color: black;
+    border: 2px solid yellow;
+    border-radius: 8px;
+}
+#contactus{
+    background-color: gold;
+    padding: 44px;
+}
+
+#contactuslocation{
+    background-color: transparent !important;
+    color: black;
+}
+.contactuspage{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+}
